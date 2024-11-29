@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CountDown Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <h1>CountDown Timer</h1>
+        <div class="timerInfo">
+            <input type="date" id="date">
+            <input type="time" id="time">
+        </div>
+        
+        <div class="timerCount">
+            <p id="day">00</p>
+            <span>day</span>
+        </div>
+        <div class="timerCount">
+            <p id="hour">00</p>
+            <span>hour</span>
+        </div>
+        <div class="timerCount">
+            <p id="minute">00</p>
+            <span>min</span>
+        </div>
+        <div class="timerCount">
+            <p id="sec">00</p>
+            <span>sec</span>
+        </div>
+
+        <span id="start"><i class='bx bx-play'></i></span>
+        <span id="stop"><i class='bx bx-stop' ></i></span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

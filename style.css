@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', Times, serif;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(129, 129, 245);
+}
+
+.container{
+    width: 450px;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.container h1{
+    font-size: 3.2em;
+    text-align: center;
+}
+.timerInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.timerInfo input{
+    font-size: 1.6em;
+    border-radius: 9px;
+    border: 1px solid #000;
+}
+
+.timerCount p, span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+}
+.timerCount span{
+    font-size: 1em;
+}
+
+#start{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    cursor: pointer;
+}
+#start:hover{
+    color: rgb(103, 232, 148);
+    transition: 1s;
+}
+#stop{
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    cursor: pointer;
+}
+#stop:hover{
+    color: rgb(255, 60, 0);
+    transition: 1s;
+}
+
+
